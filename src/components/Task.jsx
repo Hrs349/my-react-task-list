@@ -13,14 +13,15 @@ export default function Task({ taskName, completar }) {
       <h2
         style={{
           textDecoration: completado ? "line-through" : "none",
-          color: completado ? "green" : "red",
+          color: completado ? "rgb(85, 244, 85)" : "white",
         }}
       >
         {taskName}
       </h2>
-      <div className="boton">
-      <Switch className="buton" onChange={handleChange} checked={completado} />
-      </div>
+        < Switch className="hola"
+          onChange={handleChange}
+          checked={completado}
+        />
       
     </div>
   );

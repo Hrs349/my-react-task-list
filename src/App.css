@@ -1,32 +1,66 @@
+
 div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  
+  
+}
+.App{
   
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     flex-direction: column;
     width: 600px;
+    background: linear-gradient(to right, #87e8f7, #2969a5, #87e8f7);
+    border-radius: 10% 20% ;
+    margin: auto;
+    
     
     
 
 }
 h1{
-    border: solid 1px grey;
-    border-radius: 15%;
+  background: linear-gradient(to right, rgb(85, 244, 85),#4c9ae3, #4c9ae3, rgb(85, 244, 85));
+    border-radius:  10px;
     width: 500px;
     text-align: center;
-    color: grey;
-    background-color: rgb(243, 204, 177);
+    color: rgba(225, 224, 224, 0.95);
+    transform: rotatex(20deg);
+    text-shadow: -2px -2px 4px rgba(177, 169, 169, 0.5), 
+    2px 2px 4px rgba(0,0,0,0.5);
+    box-shadow: -10px -10px 20px rgba(67, 144, 189, 0.5), 
+               10px 10px 20px rgba(0,0,0,0.5)
+     
 }
 .task{
     margin: 5px;
-    width: 400px;
+    width: 550px;
+    align-items: center;
+  
+
 }
+
+
 h2{
-    border: solid 2px rgb(245, 240, 240);
+  background: linear-gradient(to right, #227784, #2274c0);
     background-color: antiquewhite;
-    border-radius: 15%;
-    width: 450px;
+    /* border: solid 1px rgb(185, 255, 221 ); */
+    border-radius: 10px;
+    width: 550px;
     text-align: center;
+    transform: rotatex(20deg);
+    text-shadow: -2px -2px 4px rgba(167, 161, 161, 0.5), 
+    2px 2px 4px rgba(0,0,0,0.5);
+    box-shadow: -10px -10px 20px rgba(67, 144, 189, 0.5), 
+               10px 10px 20px rgba(0,0,0,0.5);
+    
+  
+}
+.hola{
+  align-items: center;
 }
 
 

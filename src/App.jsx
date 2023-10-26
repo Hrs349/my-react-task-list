@@ -24,9 +24,11 @@ function App() {
     },
   ];
   return (
+    <div>
     <div className="App">
       <Header />
       <TaskList lista={LISTTASK} />
+    </div>
     </div>
   );
 }
